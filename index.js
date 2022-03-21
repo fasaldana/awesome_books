@@ -1,11 +1,14 @@
 import { BookList } from "./modules/BookList.js";
+import { DateTime } from "./luxon.min.js";
 
 const book = new BookList();
 document.getElementById("form").addEventListener("submit", book.add);
 book.loadScreen();
 
-const dt = new Date();
-document.getElementById("date-time").innerHTML = dt;
+const now = DateTime.now();
+document.getElementById("date-time").innerHTML = now.toLocaleString(
+  DateTime.DATETIME_MED
+);
 
 const list = document.getElementById("book-section");
 const addNew = document.getElementById("add-book");
