@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+input {
+  margin-top: 1em;
+  border: solid;
+}
+
+hr {
+  height: 2px;
+  width: 6em;
+  margin: 0 auto;
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+  border: solid 2px;
+  padding: 0.1em 0.5em;
+  box-shadow: 3px 3px;
+}
+
+/* nav section */
+.nav-container {
+  display: flex;
+  margin: 1em;
+  border: solid 3px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 200%;
+  margin: 1em 2em;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  flex: 1 1 0;
+  width: 100%;
+}
+
+.li-nav {
+  width: 7em;
+}
+
+.a-li {
+  text-decoration: none;
+  color: #000;
+}
+
+.a-li:hover {
+  color: blue;
+}
+
+.a-li:active {
+  color: blue;
+}
+
+.li-add {
+  border-left: solid 2px;
+  border-right: solid 2px;
+}
+
+.date-time {
+  text-align: right;
+  margin-right: 2rem;
+}
+
+/* books list */
+
+.add-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b-submit {
+  margin-top: 1em;
+  margin-left: 75%;
+}
+
+#book-section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  width: 100%;
+  border: solid 3px;
+  align-items: center;
+}
+
+.book-list:nth-child(2n + 1) {
+  background-color: gray;
+  height: 100%;
+}
+
+.book-name {
+  display: inline-block;
+  text-align: left;
+  margin-right: 15px;
+  width: 100%;
+  align-self: center;
+}
+
+.book-author {
+  display: inline-block;
+  text-align: center;
+  text-align: left;
+  width: 100%;
+}
+
+.btn-container {
+  text-align: end;
+  align-self: flex-end;
+  width: 100%;
+  margin-right: 20px;
+  padding-bottom: 5px;
+}
+
+.remove-btn {
+  margin-right: 20px;
+}
+
+.span-copyright {
+  margin: 1em 3em;
+}
+
+footer {
+  margin: 5em 1.5em 0;
+  padding: 0.5em 0;
+  border: solid 3px black;
+  border-radius: 3px;
+}
+
+/* section information */
+.p-contact {
+  width: 80%;
+  margin: 3em auto;
+  text-align: center;
+}
+
+.ul-contact {
+  width: 80%;
+  margin: 3em;
+}
+
+.li-contact {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.hide {
+  display: none !important;
+}
