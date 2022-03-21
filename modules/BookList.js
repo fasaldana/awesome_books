@@ -1,4 +1,5 @@
-export default class BookList {
+/* eslint-disable import/prefer-default-export */
+export class BookList {
   bookSection = document.getElementById('book-section');
 
   addBtn = document.getElementById('add');
