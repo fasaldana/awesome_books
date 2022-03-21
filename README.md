@@ -8,10 +8,6 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
 ## Authors
 
 👤 **Fernando Saldaña
