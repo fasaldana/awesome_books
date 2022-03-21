@@ -1,4 +1,4 @@
-export class BookList {
+export default class BookList {
   bookSection = document.getElementById('book-section');
 
   addBtn = document.getElementById('add');
