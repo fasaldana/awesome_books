@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="nav-container">
+                <span class="logo">Awesome Books</span>
+                <div class="nav-ul">
+                    <ul class="nav-ul">
+                        <li class="li-nav"><a class="a-li" id="list" href="#book-section">List</a></li>
+                        <li class="li-nav li-add"><a class="a-li" id="add-b" href="#add-book">Add new</a></li>
+                        <li class="li-nav"><a class="a-li" id="contact-a" href="#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="date-time">
+                <span id='date-time'></span>
+            </div>
+        </header>
+        <section id="book-section" class="show">
+            <h1>All Awesome Books</h1>
+        </section>
+        <section class="add-book hide" id="add-book">
+            <h1>Add a new book</h1>
+            <form id="form">
+                <input placeholder="title" id="input-name" type="text" required>
+                <br />
+                <input placeholder="author" id="input-author" type="text" required>
+                <br />
+                <button class="b-submit" type="submit" id="add">Add</button>
+            </form>
+        </section>
+        <section id="contact-section" class="hide">
+            <h1>Contact information</h1>
+            <p class="p-contact">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Porro, quia? Unde, animi excepturi id, aperiam sunt libero
+                facilis ex saepe omnis similique non voluptatibus
+                perferendis at atque itaque recusandae laudantium.
+            </p>
+            <ul class="ul-contac">
+                <li class="li-contac">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li class="li-contac">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li class="li-contac">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+        </section>
+        <footer>
+            <span class="span-copyright">Copyright -@2022</span>
+        </footer>
+        <script src="script/index.js"></script>
+    </main>
+</body>
+
+</html>
