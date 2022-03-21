@@ -6,7 +6,9 @@ document.getElementById('form').addEventListener('submit', book.add);
 book.loadScreen();
 
 const now = DateTime.now();
+
 /*eslint comma-dangle: ["error", "never"]*/
+
 document.getElementById('date-time').innerHTML = now.toLocaleString(
   DateTime.DATETIME_MED
 );
